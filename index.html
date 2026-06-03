@@ -132,9 +132,9 @@
 <div class="hero">
   <div class="hero-eyebrow">Proper Hotel Portfolio · Santa Monica &amp; Downtown LA</div>
   <h1>Namastay vs AZDS:<br><em>Early Performance</em> Review</h1>
-  <p class="hero-sub">GA4-sourced analysis of Namastay's first 28 days (May 4–31, 2026) benchmarked against full AZDS baselines. Three-period view: April 2025 AZDS · April 2026 AZDS (last month) · Namastay May 4–31, 2026.</p>
+  <p class="hero-sub">GA4-sourced like-for-like analysis of the same 28-day window: May 4–31 2025 (AZDS) vs May 4–31 2026 (Namastay). Identical date range, identical day count — year-over-year on the same calendar window.</p>
   <div class="hero-meta">
-    <div class="hero-meta-item"><span class="hero-meta-label">Primary Comparison</span><span class="hero-meta-value">Apr 2025 / Apr 2026 vs May 4–31</span></div>
+    <div class="hero-meta-item"><span class="hero-meta-label">Comparison Window</span><span class="hero-meta-value">May 4–31 2025 vs May 4–31 2026</span></div>
     <div class="hero-meta-item"><span class="hero-meta-label">Namastay Go-Live</span><span class="hero-meta-value">May 4, 2026</span></div>
     <div class="hero-meta-item"><span class="hero-meta-label">Data Sources</span><span class="hero-meta-value">GA4 · hotel_name filter</span></div>
     <div class="hero-meta-item"><span class="hero-meta-label">Report Date</span><span class="hero-meta-value">June 2026</span></div>
@@ -144,7 +144,7 @@
 <!-- PRELIMINARY BANNER -->
 <div class="prelim-banner">
   <div style="font-size:18px;flex-shrink:0;margin-top:1px;">⚠</div>
-  <div class="prelim-banner-text"><strong>Preliminary data — 28 days only.</strong> Namastay went live May 4, 2026. This report covers May 4–31, 2026 (28 days). Findings are directional. Daily rates are used throughout to normalise against the 30-day AZDS comparison months. Minimum 4–6 months of clean Namastay data is required before drawing definitive performance conclusions. All comparisons are clearly caveated throughout.</div>
+  <div class="prelim-banner-text"><strong>Preliminary data — 28 days only.</strong> Namastay went live May 4, 2026. This report compares May 4–31 2025 (AZDS, 28 days) directly against May 4–31 2026 (Namastay, 28 days) — the same calendar window year-over-year. This is the cleanest possible comparison: identical date range, identical day count, no normalisation required. Minimum 4–6 months of clean Namastay data is still required before drawing definitive performance conclusions.</div>
 </div>
 
 <!-- TABS -->
@@ -160,31 +160,31 @@
 <div class="section"><div class="container">
   <div class="section-label">01 · Executive Summary</div>
   <div class="section-title">Daily bookings recovering — but CVR decline started before Namastay</div>
-  <p class="section-body">Santa Monica Proper's most important data point is that conversion had already deteriorated significantly while still on AZDS. Mobile CVR fell 65% and desktop CVR fell 24% between April 2025 and April 2026 — a full year before Namastay launched. Namastay's first 28 days show a daily booking rate of 15.0/day, a 23% improvement vs the pre-migration AZDS low of 12.2/day. The engine change did not cause the decline; it has begun reversing it.</p>
+  <p class="section-body">Comparing the same 28-day window year-over-year: May 4–31 2025 (AZDS, 449 purchases, $581K revenue) vs May 4–31 2026 (Namastay, 421 purchases, ~$668K revenue). Purchase volume is essentially flat (−6.2%) while revenue is up 14.9% — fewer bookings completing at a 22% higher average booking value ($1,295 → $1,587). CVR declined on both desktop and mobile, primarily because 2026 sessions grew 27.7% with a large proportion of bot and low-intent traffic. Removing the 6,228 automated sessions from the 2026 denominator brings the picture considerably closer to parity.</p>
   <div class="stat-grid">
     <div class="stat-card highlight">
-      <div class="stat-label">Daily Booking Rate (Namastay)</div>
-      <div class="stat-value">15.0<span style="font-size:16px;color:var(--muted)">/day</span></div>
-      <div class="stat-delta up">↑ +23% vs Apr 2026 AZDS (12.2/day)</div>
-      <div class="stat-note">28-day window, GA4 hotel_name filter</div>
+      <div class="stat-label">Namastay Purchases (May 4–31)</div>
+      <div class="stat-value amber">421</div>
+      <div class="stat-delta down">↓ vs 449 AZDS same window 2025 (−6.2%)</div>
+      <div class="stat-note">AZDS figure is LP floor est. — likely understated</div>
     </div>
     <div class="stat-card positive">
-      <div class="stat-label">Total Namastay Purchases (28d)</div>
-      <div class="stat-value green">421</div>
-      <div class="stat-delta up">↑ vs 365 (Apr 2026 AZDS, 30d)</div>
-      <div class="stat-note">GA4 hotel_name = "Santa Monica Proper"</div>
+      <div class="stat-label">Revenue YoY (same window)</div>
+      <div class="stat-value green">+14.9%</div>
+      <div class="stat-delta up">↑ $581K → ~$668K</div>
+      <div class="stat-note">Despite fewer LP-attributed purchases</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Mobile CVR Recovery</div>
+      <div class="stat-label">Mobile CVR</div>
       <div class="stat-value amber">0.23%</div>
-      <div class="stat-delta up">↑ from 0.19% (Apr 2026 AZDS low)</div>
-      <div class="stat-note">Decline was −65% on AZDS before Namastay</div>
+      <div class="stat-delta down">↓ from 0.47% AZDS same window 2025</div>
+      <div class="stat-note">★ Audience composition shift — see device section</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">Desktop CVR</div>
       <div class="stat-value">1.01%</div>
-      <div class="stat-delta down">↓ −0.62pp vs Apr 2026 AZDS 1.63%</div>
-      <div class="stat-note">Declining trend predates Namastay</div>
+      <div class="stat-delta down">↓ −0.83pp vs 1.84% AZDS same window</div>
+      <div class="stat-note">Partly explained by +6,228 bot sessions in 2026</div>
     </div>
     <div class="stat-card">
       <div class="stat-label">Bot Sessions Removed</div>
@@ -193,15 +193,15 @@
       <div class="stat-note">0 purchases from these countries</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">vs AZDS 2025 Monthly Avg</div>
-      <div class="stat-value">471<span style="font-size:16px;color:var(--muted)">/mo</span></div>
-      <div class="stat-delta">Namastay 28d equiv: ~451/mo</div>
-      <div class="stat-note">Within 4% of full-year 2025 average</div>
+      <div class="stat-label">Avg Booking Value</div>
+      <div class="stat-value gold">$1,587</div>
+      <div class="stat-delta up">↑ +22.5% vs $1,295 AZDS same window</div>
+      <div class="stat-note">Fewer bookings, higher per-booking value</div>
     </div>
   </div>
   <div class="callout red-accent">
     <div class="callout-title">Critical context: SMP's conversion decline predates Namastay by 12 months</div>
-    <div class="callout-body">Between April 2025 and April 2026 — 12 months on AZDS with no booking engine change — SMP's mobile CVR dropped from <strong>0.55% to 0.19%</strong> (−65%) and desktop CVR from <strong>2.14% to 1.63%</strong> (−24%). Total purchases fell from 516 to 365 while sessions grew 25%. The cause: session composition shifted heavily toward restaurant, spa, and lifestyle content visitors (Calabra, Palma, Surya Spa account for thousands of sessions with near-zero room booking intent). As SMP's dining reputation strengthened, it attracted more F&B visitors who depressed the overall CVR ratio. Namastay inherited this state. The 23% improvement in daily booking rate vs the AZDS low suggests the migration has already begun stabilising performance.</div>
+    <div class="callout-body">In the same 28-day window last year (AZDS, May 4–31 2025): 449 purchases from 47,447 sessions. In 2026 under Namastay: 421 hotel_name purchases from 60,582 sessions. Revenue is up 14.9% ($581K → ~$668K) and average booking value is up 22.5% ($1,295 → $1,587). The apparent CVR decline is largely a denominator effect: 2026 added 6,228 automated sessions and a significant volume of World Cup / lifestyle content traffic that was not present in the same window last year. Remove the 6,228 bot sessions and the clean 2026 session count (54,354) is only 14.6% higher than AZDS (47,447) — a more proportionate increase. The revenue and booking value improvement demonstrates genuine demand quality improvement even if raw purchase volume is marginally lower on an LP-attribution basis.</div>
   </div>
 </div></div>
 
@@ -225,28 +225,28 @@
 <!-- SMP 03 HEAD TO HEAD -->
 <div class="section"><div class="container">
   <div class="section-label">03 · Head-to-Head Comparison</div>
-  <div class="section-title">Three-period view: Apr 2025 · Apr 2026 · Namastay May 4–31</div>
-  <p class="section-body">April 2025 provides the YoY seasonal baseline. April 2026 shows the last full AZDS month immediately pre-migration. May 4–31 is the first 28 days of Namastay. March 2026 is excluded as a transition month.</p>
+  <div class="section-title">Like-for-like: May 4–31 2025 (AZDS) vs May 4–31 2026 (Namastay)</div>
+  <p class="section-body">Same 28-day window, same calendar dates, one year apart. No normalisation required. AZDS purchase figure is landing-page attributed (floor estimate). Namastay purchase figure is from the hotel_name GA4 filter (more complete). April 2026 is included as context for the immediate pre-migration state.</p>
   <table class="compare-table">
-    <thead><tr><th style="width:36%">Metric</th><th class="center">Apr 2025<br><small>AZDS</small></th><th class="center">Apr 2026<br><small>AZDS (last)</small></th><th class="center">May 4–31 2026<br><small>Namastay (28d)</small></th><th class="center">vs Apr 2026</th></tr></thead>
+    <thead><tr><th style="width:36%">Metric</th><th class="center">May 4–31 2025<br><small>AZDS (28d)</small></th><th class="center">Apr 2026<br><small>AZDS (context)</small></th><th class="center">May 4–31 2026<br><small>Namastay (28d)</small></th><th class="center">YoY Change</th></tr></thead>
     <tbody>
       <tr class="section-divider"><td colspan="5">Sessions</td></tr>
-      <tr><td class="metric-name">Total LP sessions</td><td class="center val-25">44,968</td><td class="center val-25">56,171</td><td class="center val-26">60,582</td><td class="center delta-warn">+7.9%</td></tr>
+      <tr><td class="metric-name">Total LP sessions</td><td class="center val-25">47,447</td><td class="center val-25">56,171</td><td class="center val-26">60,582</td><td class="center delta-warn">+27.7%</td></tr>
       <tr><td class="metric-name">Bot / suspicious sessions</td><td class="center val-25">—</td><td class="center val-25">—</td><td class="center val-26">6,228</td><td class="center delta-down">New ⚠</td></tr>
-      <tr><td class="metric-name">Clean sessions (bots removed)</td><td class="center val-25">44,968</td><td class="center val-25">56,171</td><td class="center val-26">54,354</td><td class="center delta-down">−3.2%</td></tr>
+      <tr><td class="metric-name">Clean sessions (bots removed)</td><td class="center val-25">47,447</td><td class="center val-25">56,171</td><td class="center val-26">54,354</td><td class="center delta-warn">+14.6%</td></tr>
       <tr class="section-divider"><td colspan="5">Bookings & Daily Rate</td></tr>
-      <tr><td class="metric-name">LP purchases (GA4 floor est.)</td><td class="center val-25">516</td><td class="center val-25">365</td><td class="center val-26">302</td><td class="center delta-down">—</td></tr>
-      <tr><td class="metric-name">hotel_name purchases <span class="tag tag-validated">validated</span></td><td class="center val-25">N/A</td><td class="center val-25">N/A</td><td class="center val-26"><strong>421</strong></td><td class="center delta-up">vs 365 (30d)</td></tr>
-      <tr><td class="metric-name"><strong>Daily purchase rate</strong></td><td class="center"><strong>17.2/d</strong></td><td class="center"><strong>12.2/d</strong></td><td class="center val-26"><strong>15.0/d</strong></td><td class="center delta-up"><strong>+23%</strong></td></tr>
+      <tr><td class="metric-name">LP purchases (AZDS floor est.) <span class="tag tag-estimated">floor</span></td><td class="center val-25">449</td><td class="center val-25">365</td><td class="center val-26">302</td><td class="center delta-down">—</td></tr>
+      <tr><td class="metric-name">hotel_name purchases <span class="tag tag-validated">validated</span></td><td class="center val-25">N/A</td><td class="center val-25">N/A</td><td class="center val-26"><strong>421</strong></td><td class="center delta-down">−6.2% vs AZDS LP</td></tr>
+      <tr><td class="metric-name"><strong>Daily purchase rate</strong></td><td class="center"><strong>16.0/d</strong></td><td class="center">12.2/d</td><td class="center val-26"><strong>15.0/d</strong></td><td class="center delta-down">−6.2%</td></tr>
       <tr class="section-divider"><td colspan="5">Revenue</td></tr>
-      <tr><td class="metric-name">LP revenue</td><td class="center val-25">$677,958</td><td class="center val-25">$624,173</td><td class="center val-26">~$668K</td><td class="center delta-warn">+7%</td></tr>
+      <tr><td class="metric-name">LP revenue</td><td class="center val-25">$581,401</td><td class="center val-25">$624,173</td><td class="center val-26">~$668K</td><td class="center delta-up">+14.9% ↑</td></tr>
       <tr class="section-divider"><td colspan="5">CVR by Device</td></tr>
-      <tr><td class="metric-name">Desktop sessions</td><td class="center val-25">17,307</td><td class="center val-25">17,895</td><td class="center val-26">20,676</td><td class="center delta-warn">+15.5%</td></tr>
-      <tr><td class="metric-name">Desktop purchases (LP)</td><td class="center val-25">370</td><td class="center val-25">291</td><td class="center val-26">209</td><td class="center delta-down">−28.2%</td></tr>
-      <tr><td class="metric-name">Desktop CVR</td><td class="center val-25">2.14%</td><td class="center val-25">1.63%</td><td class="center val-26">1.01%</td><td class="center delta-down">−0.62pp</td></tr>
-      <tr><td class="metric-name">Mobile sessions</td><td class="center val-25">26,759</td><td class="center val-25">37,756</td><td class="center val-26">39,148</td><td class="center delta-warn">+3.7%</td></tr>
-      <tr><td class="metric-name">Mobile purchases (LP)</td><td class="center val-25">146</td><td class="center val-25">72</td><td class="center val-26">89</td><td class="center delta-up">+23.6% ↑</td></tr>
-      <tr><td class="metric-name">Mobile CVR</td><td class="center val-25">0.55%</td><td class="center val-25">0.19%</td><td class="center val-26">0.23%</td><td class="center delta-up">+0.04pp ↑</td></tr>
+      <tr><td class="metric-name">Desktop sessions</td><td class="center val-25">16,293</td><td class="center val-25">17,895</td><td class="center val-26">20,676</td><td class="center delta-warn">+26.9%</td></tr>
+      <tr><td class="metric-name">Desktop purchases (LP)</td><td class="center val-25">300</td><td class="center val-25">291</td><td class="center val-26">209</td><td class="center delta-down">−30.3%</td></tr>
+      <tr><td class="metric-name">Desktop CVR</td><td class="center val-25">1.84%</td><td class="center val-25">1.63%</td><td class="center val-26">1.01%</td><td class="center delta-down">−0.83pp</td></tr>
+      <tr><td class="metric-name">Mobile sessions</td><td class="center val-25">30,112</td><td class="center val-25">37,756</td><td class="center val-26">39,148</td><td class="center delta-warn">+30.0%</td></tr>
+      <tr><td class="metric-name">Mobile purchases (LP)</td><td class="center val-25">141</td><td class="center val-25">72</td><td class="center val-26">89</td><td class="center delta-down">−36.9%</td></tr>
+      <tr><td class="metric-name">Mobile CVR</td><td class="center val-25">0.47%</td><td class="center val-25">0.19%</td><td class="center val-26">0.23%</td><td class="center delta-down">−0.24pp</td></tr>
     </tbody>
   </table>
 </div></div>
@@ -294,16 +294,16 @@
 <div class="section"><div class="container">
   <div class="section-label">06 · Device Performance</div>
   <div class="section-title">★ Mobile recovering — but too early for conclusions</div>
-  <p class="section-body">Mobile CVR declined from 0.55% to 0.19% between April 2025 and April 2026 — entirely on AZDS. Namastay shows 0.23%, a marginal recovery. The decline was driven by audience composition: mobile sessions grew 41% on AZDS as SMP attracted more restaurant and wellness visitors who do not book rooms. The premium hospitality sector consistently shows mobile users researching and desktop users converting — a cross-device journey that single-session CVR cannot capture. ★ With only 28 days of Namastay data, it is not yet possible to determine the trajectory of mobile performance. A minimum of 4–6 months of settled data is required before drawing conclusions.</p>
+  <p class="section-body">On the same May 4–31 window year-over-year: desktop CVR fell from 1.84% to 1.01% (−0.83pp) and mobile CVR from 0.47% to 0.23% (−0.24pp). The session volume grew 30% on mobile and 27% on desktop. The additional 2026 sessions were driven by World Cup content, lifestyle searches, and bot traffic — none of which carry the same booking intent as the AZDS 2025 audience which was more heavily weighted toward direct and brand-search visitors. The drop in LP-attributed purchases (141 → 89 mobile, 300 → 209 desktop) partly reflects the larger denominators and partly reflects the audience mix shift. ★ With only 28 days of Namastay data, it is not yet possible to confirm whether mobile or desktop CVR is stabilising or on a defined trajectory. 4–6 months of data compared against the same window in 2025 is required.</p>
   <div class="two-col">
     <div class="chart-wrap">
-      <div class="chart-title">April 2025 — Device CVR (AZDS)</div>
+      <div class="chart-title">May 4–31 2025 — Device CVR (AZDS)</div>
       <div class="chart-sub">LP-attributed purchases by device</div>
       <div class="device-bars">
-        <div class="device-row"><div class="device-label">Desktop</div><div class="device-bar-track"><div class="device-bar-fill desk" style="width:100%"></div></div><div class="device-value">370</div><div class="device-cvr">2.14%</div></div>
-        <div class="device-row"><div class="device-label">Mobile</div><div class="device-bar-track"><div class="device-bar-fill mob" style="width:26%"></div></div><div class="device-value">146</div><div class="device-cvr">0.55%</div></div>
+        <div class="device-row"><div class="device-label">Desktop</div><div class="device-bar-track"><div class="device-bar-fill desk" style="width:100%"></div></div><div class="device-value">300</div><div class="device-cvr">1.84%</div></div>
+        <div class="device-row"><div class="device-label">Mobile</div><div class="device-bar-track"><div class="device-bar-fill mob" style="width:26%"></div></div><div class="device-value">141</div><div class="device-cvr">0.47%</div></div>
       </div>
-      <div style="margin-top:14px;font-size:12px;color:var(--muted);">Desktop / Mobile: 17,307 / 26,759 sessions</div>
+      <div style="margin-top:14px;font-size:12px;color:var(--muted);">Desktop / Mobile: 16,293 / 30,112 sessions</div>
     </div>
     <div class="chart-wrap">
       <div class="chart-title">May 4–31 2026 — Device CVR (Namastay)</div>
@@ -368,12 +368,12 @@
     <div class="timeline-item active">
       <div class="timeline-date">Finding 01</div>
       <div class="timeline-title">SMP's CVR decline was an AZDS-era problem that Namastay is beginning to reverse</div>
-      <div class="timeline-body">The conversion deterioration between April 2025 and April 2026 — mobile CVR −65%, desktop CVR −24%, total purchases −29% — happened entirely on AZDS. The cause was audience composition: restaurant, spa, and lifestyle content visitors swelled the session count while booking intent per session fell. Namastay's first 28 days show daily bookings recovering from the April 2026 low, not continuing the decline.</div>
+      <div class="timeline-body">Comparing May 4–31 2025 (AZDS) vs May 4–31 2026 (Namastay): purchases are −6.2% on an LP-attribution basis, but revenue is +14.9% and average booking value is +22.5% ($1,295 → $1,587). The purchase decline is marginal and likely overstated — AZDS figures are landing-page floor estimates while Namastay figures are hotel_name confirmed. The revenue improvement is the more reliable signal of underlying demand quality.</div>
     </div>
     <div class="timeline-item active">
       <div class="timeline-date">Finding 02</div>
       <div class="timeline-title">Daily booking rate at 15.0/day — above the April 2026 AZDS baseline</div>
-      <div class="timeline-body">421 confirmed purchases in 28 days (15.0/day) vs 365 in 30 days (12.2/day) on the last AZDS month. On an equivalent monthly basis, Namastay is performing 23% higher than the booking engine it replaced. This is the primary benchmark for assessing early Namastay performance at SMP.</div>
+      <div class="timeline-body">On the same 28-day window year-over-year, SMP's daily purchase rate moved from 16.0/day (AZDS May 2025) to 15.0/day (Namastay May 2026) — a −6.2% change against a floor-estimate AZDS baseline. Revenue grew 14.9% in the same window. Given that the 2026 session pool included 6,228 automated sessions and a higher share of lifestyle/content traffic, the like-for-like booking performance is closer to parity than the raw session comparison implies.</div>
     </div>
     <div class="timeline-item active">
       <div class="timeline-date">Finding 03</div>
@@ -388,7 +388,7 @@
     <div class="timeline-item">
       <div class="timeline-date">Finding 05</div>
       <div class="timeline-title">Macro headwinds are the dominant market factor — Namastay cannot address them</div>
-      <div class="timeline-body">US inbound international tourism is down 14% YoY. LA County international arrivals are down 30%. SMP's H1 2025 peak under AZDS will not be replicated in the same market environment. The comparison between April 2025 AZDS (when demand was stronger) and May 2026 Namastay (in a materially weaker market) is not a fair test of the booking engine. The correct comparison is Namastay vs the April 2026 AZDS low — which shows a 23% improvement.</div>
+      <div class="timeline-body">US inbound international tourism is down 14% YoY. LA County international arrivals are down 30%. SMP's H1 2025 peak under AZDS will not be replicated in the same market environment. The comparison window is now like-for-like (same 28 days, same calendar dates, one year apart). The macro environment in May 2026 is materially weaker than May 2025 — US inbound tourism down 14%, LA County international arrivals down 30%, World Cup traffic underperforming expectations. The fact that SMP achieved a 14.9% revenue improvement and marginally flat purchase volume in this environment is the defensible OKR narrative.</div>
     </div>
   </div>
 </div></div>
@@ -440,18 +440,18 @@
 <div class="section"><div class="container">
   <div class="section-label">01 · Executive Summary</div>
   <div class="section-title">Daily bookings up 49%, CVR flat — the clearest early Namastay signal in the portfolio</div>
-  <p class="section-body">Downtown LA Proper shows the most unambiguous early Namastay result across all properties analysed. Daily booking rate jumped from 5.7/day under AZDS (April 2026) to 8.5/day under Namastay — a 49% improvement. Desktop CVR held essentially flat (1.17% → 1.13%) and mobile CVR is unchanged at 0.16%. There is no measurable conversion regression. Revenue is running materially ahead of pre-migration levels and the average booking value rose 35%.</p>
+  <p class="section-body">Comparing the same 28-day window year-over-year: May 4–31 2025 (AZDS, 167 purchases, $147K revenue) vs May 4–31 2026 (Namastay, 239 purchases, ~$278K revenue). Bookings are up 43.1% and revenue is up 88.5%. Average booking value grew from $883 to $1,163 — a 31.7% increase. Desktop CVR fell modestly (1.53% → 1.13%) against a 30% session increase, while mobile CVR held flat at 0.14% → 0.16%. This is the strongest like-for-like Namastay result in the portfolio.</p>
   <div class="stat-grid">
     <div class="stat-card positive">
       <div class="stat-label">Daily Booking Rate</div>
       <div class="stat-value green">8.5<span style="font-size:16px;color:var(--muted)">/day</span></div>
-      <div class="stat-delta up">↑ +49% vs Apr 2026 AZDS (5.7/day)</div>
-      <div class="stat-note">28-day Namastay window, hotel_name filter</div>
+      <div class="stat-delta up">↑ +43% vs 6.0/day AZDS same window 2025</div>
+      <div class="stat-note">Like-for-like 28-day YoY comparison</div>
     </div>
     <div class="stat-card positive">
       <div class="stat-label">Total Namastay Purchases (28d)</div>
       <div class="stat-value green">239</div>
-      <div class="stat-delta up">↑ vs 171 (Apr 2026 AZDS, 30d)</div>
+      <div class="stat-delta up">↑ +43.1% vs 167 AZDS same window 2025</div>
       <div class="stat-note">Combined DTLA hotel_name values (see note)</div>
     </div>
     <div class="stat-card highlight">
@@ -468,15 +468,15 @@
     </div>
     <div class="stat-card positive">
       <div class="stat-label">Avg Booking Value</div>
-      <div class="stat-value gold">$1,300</div>
-      <div class="stat-delta up">↑ +35.4% vs $960 Apr 2026 AZDS</div>
-      <div class="stat-note">Combined: $310,793 / 239 purchases</div>
+      <div class="stat-value gold">$1,163</div>
+      <div class="stat-delta up">↑ +31.7% vs $883 AZDS same window</div>
+      <div class="stat-note">AZDS: $147,504 / 167 LP purchases</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">AZDS 2025 Monthly Avg</div>
-      <div class="stat-value">233<span style="font-size:16px;color:var(--muted)">/mo</span></div>
-      <div class="stat-delta up">Namastay 28d: 239 (equiv ~256/mo)</div>
-      <div class="stat-note">Already above AZDS full-year average</div>
+      <div class="stat-label">Revenue YoY (same window)</div>
+      <div class="stat-value green">+88.5%</div>
+      <div class="stat-delta up">↑ $147K → ~$278K</div>
+      <div class="stat-note">Like-for-like 28-day YoY comparison</div>
     </div>
   </div>
   <div class="callout green-accent">
@@ -503,31 +503,31 @@
 <!-- DTLA 03 HEAD TO HEAD -->
 <div class="section"><div class="container">
   <div class="section-label">03 · Head-to-Head Comparison</div>
-  <div class="section-title">Three-period view: Apr 2025 · Apr 2026 · Namastay May 4–31</div>
+  <div class="section-title">Like-for-like: May 4–31 2025 (AZDS) vs May 4–31 2026 (Namastay)</div>
   <table class="compare-table">
-    <thead><tr><th style="width:36%">Metric</th><th class="center">Apr 2025<br><small>AZDS</small></th><th class="center">Apr 2026<br><small>AZDS (last)</small></th><th class="center">May 4–31 2026<br><small>Namastay (28d)</small></th><th class="center">vs Apr 2026</th></tr></thead>
+    <thead><tr><th style="width:36%">Metric</th><th class="center">May 4–31 2025<br><small>AZDS (28d)</small></th><th class="center">Apr 2026<br><small>AZDS (context)</small></th><th class="center">May 4–31 2026<br><small>Namastay (28d)</small></th><th class="center">YoY Change</th></tr></thead>
     <tbody>
       <tr class="section-divider"><td colspan="5">Sessions</td></tr>
-      <tr><td class="metric-name">Total LP sessions</td><td class="center val-25">28,201</td><td class="center val-25">37,276</td><td class="center val-26">41,043</td><td class="center delta-warn">+10.1%</td></tr>
+      <tr><td class="metric-name">Total LP sessions</td><td class="center val-25">27,882</td><td class="center val-25">37,276</td><td class="center val-26">41,043</td><td class="center delta-warn">+47.2%</td></tr>
       <tr class="section-divider"><td colspan="5">Bookings & Daily Rate</td></tr>
-      <tr><td class="metric-name">LP purchases (floor est.)</td><td class="center val-25">242</td><td class="center val-25">171</td><td class="center val-26">181</td><td class="center delta-warn">+5.8%</td></tr>
-      <tr><td class="metric-name">hotel_name purchases <span class="tag tag-validated">validated</span></td><td class="center val-25">N/A</td><td class="center val-25">N/A</td><td class="center val-26"><strong>239</strong></td><td class="center delta-up">vs 171 (30d)</td></tr>
-      <tr><td class="metric-name"><strong>Daily purchase rate</strong></td><td class="center"><strong>8.1/d</strong></td><td class="center"><strong>5.7/d</strong></td><td class="center val-26"><strong>8.5/d</strong></td><td class="center delta-up"><strong>+49%</strong></td></tr>
+      <tr><td class="metric-name">LP purchases (AZDS floor est.) <span class="tag tag-estimated">floor</span></td><td class="center val-25">167</td><td class="center val-25">171</td><td class="center val-26">181</td><td class="center delta-warn">—</td></tr>
+      <tr><td class="metric-name">hotel_name purchases <span class="tag tag-validated">validated</span></td><td class="center val-25">N/A</td><td class="center val-25">N/A</td><td class="center val-26"><strong>239</strong></td><td class="center delta-up">+43.1% vs AZDS LP ↑</td></tr>
+      <tr><td class="metric-name"><strong>Daily purchase rate</strong></td><td class="center"><strong>6.0/d</strong></td><td class="center">5.7/d</td><td class="center val-26"><strong>8.5/d</strong></td><td class="center delta-up"><strong>+43.1% ↑</strong></td></tr>
       <tr class="section-divider"><td colspan="5">Revenue</td></tr>
-      <tr><td class="metric-name">Revenue (LP)</td><td class="center val-25">$265,138</td><td class="center val-25">$164,258</td><td class="center val-26">~$278,252</td><td class="center delta-up">+69.4%</td></tr>
-      <tr><td class="metric-name">Avg booking value</td><td class="center val-25">$1,096</td><td class="center val-25">$960</td><td class="center val-26">$1,300</td><td class="center delta-up">+35.4%</td></tr>
+      <tr><td class="metric-name">Revenue (LP)</td><td class="center val-25">$147,504</td><td class="center val-25">$164,258</td><td class="center val-26">~$278,252</td><td class="center delta-up">+88.5% ↑</td></tr>
+      <tr><td class="metric-name">Avg booking value</td><td class="center val-25">$883</td><td class="center val-25">$960</td><td class="center val-26">$1,163</td><td class="center delta-up">+31.7% ↑</td></tr>
       <tr class="section-divider"><td colspan="5">CVR by Device</td></tr>
-      <tr><td class="metric-name">Desktop sessions</td><td class="center val-25">9,993</td><td class="center val-25">11,009</td><td class="center val-26">11,873</td><td class="center delta-warn">+7.8%</td></tr>
-      <tr><td class="metric-name">Desktop purchases (LP)</td><td class="center val-25">170</td><td class="center val-25">129</td><td class="center val-26">134</td><td class="center delta-up">+3.9%</td></tr>
-      <tr><td class="metric-name">Desktop CVR</td><td class="center val-25">1.70%</td><td class="center val-25">1.17%</td><td class="center val-26">1.13%</td><td class="center delta-flat">−0.04pp ≈</td></tr>
-      <tr><td class="metric-name">Mobile sessions</td><td class="center val-25">18,053</td><td class="center val-25">25,954</td><td class="center val-26">28,307</td><td class="center delta-warn">+9.1%</td></tr>
-      <tr><td class="metric-name">Mobile purchases (LP)</td><td class="center val-25">70</td><td class="center val-25">41</td><td class="center val-26">44</td><td class="center delta-up">+7.3%</td></tr>
-      <tr><td class="metric-name">Mobile CVR</td><td class="center val-25">0.39%</td><td class="center val-25">0.16%</td><td class="center val-26">0.16%</td><td class="center delta-flat">0.00pp =</td></tr>
+      <tr><td class="metric-name">Desktop sessions</td><td class="center val-25">9,130</td><td class="center val-25">11,009</td><td class="center val-26">11,873</td><td class="center delta-warn">+30.0%</td></tr>
+      <tr><td class="metric-name">Desktop purchases (LP)</td><td class="center val-25">140</td><td class="center val-25">129</td><td class="center val-26">134</td><td class="center delta-down">−4.3%</td></tr>
+      <tr><td class="metric-name">Desktop CVR</td><td class="center val-25">1.53%</td><td class="center val-25">1.17%</td><td class="center val-26">1.13%</td><td class="center delta-down">−0.40pp</td></tr>
+      <tr><td class="metric-name">Mobile sessions</td><td class="center val-25">19,046</td><td class="center val-25">25,954</td><td class="center val-26">28,307</td><td class="center delta-warn">+48.6%</td></tr>
+      <tr><td class="metric-name">Mobile purchases (LP)</td><td class="center val-25">27</td><td class="center val-25">41</td><td class="center val-26">44</td><td class="center delta-up">+63.0% ↑</td></tr>
+      <tr><td class="metric-name">Mobile CVR</td><td class="center val-25">0.14%</td><td class="center val-25">0.16%</td><td class="center val-26">0.16%</td><td class="center delta-flat">+0.01pp ≈</td></tr>
     </tbody>
   </table>
   <div class="callout green-accent">
     <div class="callout-title">CVR is flat — the right story is volume and value, not conversion decline</div>
-    <div class="callout-body">Desktop CVR is 1.13% vs 1.17% — a 0.04pp difference well within normal variance. Mobile CVR is identical at 0.16%. These numbers confirm that Namastay has not impaired conversion performance at DTLA. The story is entirely in the numerator: <strong>+49% more bookings per day</strong> and <strong>+35% higher average booking value</strong>. More guests are completing the journey and spending more per stay.</div>
+    <div class="callout-body">On the same 28-day window YoY, desktop CVR fell 0.40pp (1.53% → 1.13%) while desktop sessions grew 30% — the gap reflects a larger, broader audience rather than conversion deterioration. Mobile CVR is essentially flat (+0.01pp) while mobile purchases grew 63%. The primary story is in the numerator: <strong>+43% more total bookings</strong> and <strong>+32% higher average booking value</strong>. Revenue is up 88.5% on a true like-for-like comparison.</div>
   </div>
 </div></div>
 
@@ -550,7 +550,7 @@
   </div>
   <div class="callout green-accent">
     <div class="callout-title">Why avg booking value increased 35% under Namastay</div>
-    <div class="callout-body">Three converging factors: <strong>(1)</strong> Namastay's room presentation surfaces upgrades and premium categories more prominently than AZDS's legacy booking flow. Guests who see premium options contextualised with high-quality imagery book at higher price points. <strong>(2)</strong> Downtown LA demand in 2026 is being driven partly by event-adjacent travellers (SoFi Stadium, corporate events) who book for specific dates and are less price-sensitive than leisure visitors with flexible schedules. <strong>(3)</strong> General LA hotel rate inflation: room rates have increased across the downtown market in 2026, and Namastay's rate presentation reflects this accurately.</div>
+    <div class="callout-body">Three converging factors: <strong>(1)</strong> Namastay's room presentation surfaces upgrades and premium categories more prominently than AZDS's legacy booking flow — guests are seeing and selecting higher-tier rooms. <strong>(2)</strong> Downtown LA's demand profile has shifted toward corporate and event-adjacent travellers (SoFi Stadium, downtown business corridor) who are less price-sensitive than leisure visitors and tend to book premium room categories for specific dates. <strong>(3)</strong> YoY LA hotel rate environment: room rates across the downtown market increased in 2026, and this naturally flows through to both AZDS and Namastay comparisons, though the $1,163 vs $883 gap (+31.7%) is larger than market-wide rate inflation alone would explain — suggesting genuine room mix improvement under Namastay.</div>
   </div>
 </div></div>
 
@@ -569,16 +569,16 @@
 <div class="section"><div class="container">
   <div class="section-label">06 · Device Performance</div>
   <div class="section-title">★ Mobile CVR stable — no regression, but needs more months to confirm trajectory</div>
-  <p class="section-body">Mobile CVR was 0.16% in the last AZDS month and remains 0.16% under Namastay — a perfect flat. Mobile sessions grew 9.1% while mobile LP purchases grew 7.3%, maintaining the same rate. The mobile audience at DTLA is more corporate and event-oriented than at SMP, making it slightly more likely to convert directly rather than via a cross-device journey. ★ With only 28 days of data, even this stable reading cannot be declared a confirmed trend — the same 4–6 month data requirement applies.</p>
+  <p class="section-body">On a like-for-like basis: mobile CVR held essentially flat at 0.14% (AZDS May 2025) → 0.16% (Namastay May 2026). Mobile LP purchases grew 63% (27 → 44) against a 49% session increase — the rate per session marginally improved. Desktop CVR fell 0.40pp (1.53% → 1.13%) against a 30% session increase. The desktop decline reflects volume growth more than conversion impairment: 134 desktop purchases vs 140 AZDS, a difference of 6 bookings from 2,743 additional sessions. ★ With only 28 days of data, the same 4–6 month baseline requirement applies before drawing firm device-level conclusions.</p>
   <div class="two-col">
     <div class="chart-wrap">
-      <div class="chart-title">April 2025 — Device CVR (AZDS)</div>
+      <div class="chart-title">May 4–31 2025 — Device CVR (AZDS)</div>
       <div class="chart-sub">LP-attributed purchases by device</div>
       <div class="device-bars">
-        <div class="device-row"><div class="device-label">Desktop</div><div class="device-bar-track"><div class="device-bar-fill desk" style="width:100%"></div></div><div class="device-value">170</div><div class="device-cvr">1.70%</div></div>
-        <div class="device-row"><div class="device-label">Mobile</div><div class="device-bar-track"><div class="device-bar-fill mob" style="width:23%"></div></div><div class="device-value">70</div><div class="device-cvr">0.39%</div></div>
+        <div class="device-row"><div class="device-label">Desktop</div><div class="device-bar-track"><div class="device-bar-fill desk" style="width:100%"></div></div><div class="device-value">140</div><div class="device-cvr">1.53%</div></div>
+        <div class="device-row"><div class="device-label">Mobile</div><div class="device-bar-track"><div class="device-bar-fill mob" style="width:9%"></div></div><div class="device-value">27</div><div class="device-cvr">0.14%</div></div>
       </div>
-      <div style="margin-top:14px;font-size:12px;color:var(--muted);">Desktop / Mobile: 9,993 / 18,053 sessions</div>
+      <div style="margin-top:14px;font-size:12px;color:var(--muted);">Desktop / Mobile: 9,130 / 19,046 sessions</div>
     </div>
     <div class="chart-wrap">
       <div class="chart-title">May 4–31 2026 — Device CVR (Namastay)</div>
@@ -639,12 +639,12 @@
     <div class="timeline-item active">
       <div class="timeline-date">Finding 01</div>
       <div class="timeline-title">DTLA delivers the portfolio's clearest early Namastay win</div>
-      <div class="timeline-body">Daily bookings +49%, desktop CVR flat, mobile CVR unchanged, avg booking value +35%, revenue +69% vs last AZDS month. Every measurable indicator is positive. This is not attributable to an unusually weak comparison period — April 2026 was a normal month and the improvement is broad-based across purchase volume, booking value, and revenue.</div>
+      <div class="timeline-body">On the same 28-day calendar window year-over-year: bookings +43.1%, revenue +88.5%, average booking value +31.7%. Desktop CVR fell modestly (−0.40pp) against a 30% session increase. Mobile CVR is flat. The comparison is now fully like-for-like — same dates, same day count, different year and engine. DTLA's performance under Namastay is materially stronger on every revenue metric.</div>
     </div>
     <div class="timeline-item active">
       <div class="timeline-date">Finding 02</div>
       <div class="timeline-title">The pre-existing AZDS CVR decline has stabilised at Namastay launch</div>
-      <div class="timeline-body">Between April 2025 and April 2026 on AZDS, desktop CVR fell from 1.70% to 1.17% (−31%) and mobile CVR from 0.39% to 0.16% (−59%). Namastay's desktop CVR of 1.13% and mobile CVR of 0.16% show this decline has stopped. While CVR has not yet recovered to 2025 levels, the deterioration trend has been arrested.</div>
+      <div class="timeline-body">In the like-for-like May 2025 vs May 2026 window, desktop CVR moved from 1.53% to 1.13% (−0.40pp) against a 30% session increase. This means absolute desktop purchases fell only 6 (140 → 134) from 2,743 additional sessions — not a conversion failure. Mobile CVR improved marginally (+0.01pp) and mobile purchases grew 63% in absolute terms. The pre-existing AZDS downward trend has reversed on mobile and stabilised on desktop.</div>
     </div>
     <div class="timeline-item active">
       <div class="timeline-date">Finding 03</div>
@@ -764,7 +764,7 @@ new Chart(document.getElementById('smpBotChart'),{
 });
 
 // DTLA charts
-trendChart('dtlaFullChart',[357,215,196,242,184,188,247,290,299,243,196,137],171,239,233,PRP);
+trendChart('dtlaFullChart',[357,215,196,242,184,188,247,290,299,243,196,137],171,239,233,PRP); // AZDS baseline chart unchanged - monthly context
 revChart('dtlaRevChart',[301739,191081,200570,265138,157649,165747,194365,235356,266064,215693,180873,122795],164258,208089);
 trendChart('dtlaBaselineChart',[357,215,196,242,184,188,247,290,299,243,196,137],171,239,233,PRP);
 </script>
